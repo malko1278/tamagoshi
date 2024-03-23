@@ -1,0 +1,14 @@
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\bin\Debug\net8.0\Тамагочи.exe
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\bin\Debug\net8.0\Тамагочи.deps.json
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\bin\Debug\net8.0\Тамагочи.runtimeconfig.json
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\bin\Debug\net8.0\Тамагочи.dll
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\bin\Debug\net8.0\Тамагочи.pdb
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\Тамагочи.GeneratedMSBuildEditorConfig.editorconfig
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\Тамагочи.AssemblyInfoInputs.cache
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\Тамагочи.AssemblyInfo.cs
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\Тамагочи.csproj.CoreCompileInputs.cache
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\Тамагочи.dll
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\refint\Тамагочи.dll
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\Тамагочи.pdb
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\Тамагочи.genruntimeconfig.cache
+D:\Développement\Programmation 01-01-2024\New\CSharp\Элком+\Тамагочи\obj\Debug\net8.0\ref\Тамагочи.dll
