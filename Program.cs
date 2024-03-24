@@ -72,22 +72,31 @@ namespace App {
 			#pragma warning disable CS8602 // Dereference of a possibly null reference.
             switch (menu_action)  {
 				case 1 :   
-					if(animal.Hunger == 0)	 Console.WriteLine("#####  You can't feed yourself yet, you're fed enough.  #####");
+					if(animal.Hunger == 0)	 Console.WriteLine("#####  You can't feed yourself yet, you're fed enough  #####");
 					else {
 						animal.Hunger -= 1;
 						alimentation += 1;
 						if(alimentation > 7)   animal.Heath -= 1;
 					}
 					break;
-				case 2 :   animal.Fatigue += 1;
-					if(animal.Fatigue > 7) {
-						animal.Heath -= 1;
-						animal.Hunger += 1;
+				case 2 :   
+					if(animal.Fatigue == 10)	Console.WriteLine("#####  You can't play anymore. Take a rest  #####");
+					else {
+						animal.Fatigue += 1;
+						if(animal.Fatigue > 7) {
+							animal.Heath -= 1;
+							animal.Hunger += 1;
+							Console.WriteLine("#####  You are very tired. Remember to rest  #####");
+						}
 					}
 					break;
-				case 3 :   animal.Fatigue = 0;
-					if(animal.Heath < 10)    animal.Heath += 1;
-					animal.Hunger += 1;
+				case 3 :   
+					if(animal.Fatigue == 0)	Console.WriteLine("#####  Sorry, it's not possible for you to sleep right now  #####");
+					else {
+						animal.Fatigue = 0;
+						if(animal.Heath < 10)    animal.Heath += 1;
+						animal.Hunger += 1;
+					}
 					break;
 				default :   break;
 		    }
@@ -141,7 +150,6 @@ namespace App {
 
 		static void getHunger() {
 		    // code to be executed
-			// Console.WriteLine("###  Hunger  : {0}  ####", animal.Hunger);
 			switch(animal.Hunger) {
 				case 10:   Console.WriteLine("###  HUNGER  : ++++++++++  ############################################");
 					break;
