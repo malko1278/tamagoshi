@@ -4,7 +4,6 @@ using System;
 namespace App {
     class Animal {
         public int Heath { get; set; }
-        private int _hunger;
         public int Hunger  { get; set; }
         public int Fatigue { get; set; }
         private String? _name;
