@@ -12,7 +12,6 @@ namespace App {
 		public static Animal? animal = null;
 		// The program is executed by a "Main" function
 		static void Main(string[] args) {
-			// 
 			Console.WriteLine("Beginning of the Game Тамагочи...)");
 			do {
 				play_game();
@@ -23,7 +22,7 @@ namespace App {
 		static void play_game() {
 			do {
 				Console.WriteLine("Please select a type of animals :");
-				Console.WriteLine("Dog : 1");
+				Console.WriteLine("Dog  : 1");
 				Console.WriteLine("Cat  : 2");
 				type_animal = isRealValue(Console.ReadLine()!, 0);
 			} while((type_animal != 1) && (type_animal != 2));
@@ -56,7 +55,7 @@ namespace App {
 		static void tamagochiBoard() {
 		    // code to be executed
 			Console.WriteLine("\n#######################################################################");
-			if(type_animal == 1)   Console.WriteLine("###########################       CAT       ###########################");
+			if(type_animal == 2)   Console.WriteLine("###########################       CAT       ###########################");
 			else   Console.WriteLine("###########################       DOG       ###########################");
 			Console.WriteLine("#######################################################################");
 		}
@@ -121,7 +120,6 @@ namespace App {
 
 		static void getHeath() {
 		    // code to be executed
-			// Console.WriteLine("###  Heath  : {0}  ####", animal.Heath);
 			switch(animal.Heath) {
 				case 10:   Console.WriteLine("###  HEATH   : ++++++++++  ############################################");
 					break;
